@@ -1,0 +1,87 @@
+
+body{
+    text-align: center;
+}
+    
+/* NavBar */
+#main{
+    padding: 1% 10% 0%;
+    background-color: #1d4d4f;
+}
+
+/* Carousel */
+.move{
+    padding: 3% 10% 5%;
+    
+}
+#imgContent{
+    background-color: #1d4d4f;
+}
+
+/* About Us */
+#aboutUs{
+    padding: 5% 15%;
+    text-align: justify !important;
+    background-color: #e5dfdf;
+}
+.gap{
+    padding: 10px;
+}
+.lol{
+    padding: 5% 10% 0 0;
+}
+/* Pricing */
+#pricing{
+    padding: 5% 15%;
+    background-color: #6ba8a9;
+}
+.space{
+    padding: 10px;
+}
+
+/* Contact */
+#contact{
+    padding: 5%;
+    /* background-color: #6ba8a9; */
+    background-color: #1d4d4f;
+    color: rgba(255,255,255,.75);
+    
+}
+.just{
+    text-align: justify !important;
+}
+
+.email{
+    background-color: cornsilk;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* Footer */
+#footer{
+    padding: 2% 15%;
+    background-color: #e5dfdf;
+}
+
+/* Map */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ a{ 
+    color: cornsilk;
+ }
+a:hover {
+    text-decoration: none;
+    color: #e7b315;
+} 

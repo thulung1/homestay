@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homestay</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS and JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <section id="main">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.jpeg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>                        
+                  </ul>
+                      
+                </div>
+        </nav>
+    </section>
+
+    <!-- Carousel -->
+    <section id="imgContent">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="move carousel-item active">
+                    <img src="images/white.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="move carousel-item">
+                    <img src="images/living.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="move carousel-item">
+                    <img src="images/view.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="move carousel-item">
+                    <img src="images/yellow.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="move carousel-item">
+                    <img src="images/sunset.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div>
+
+    </section>
+
+
+    <!-- Main/ About Us -->
+    <section id="aboutUs" style="background-image: url('images/2.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="gap col-lg-6">
+                    <br>  
+                    <h2>Tarewa Heem Homestay</h2>
+                    <p class="lol">A Home away from home. Experience the ultimate ordeal with splendid view, mountain clad sight from the comfort of your room. Greenery to amp up your heart and soul. Time to recline, unwind and make memories for lifetime.
+
+                    </p>
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/white.jpeg" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+        <div class="row">
+            <div class="space col-lg-12">
+                <div class="card">
+                    <div class="card-header">Standard Room</div>
+                        <div class="card-body">
+                            <h3>Rs.1500 per night</h3>
+                            <p>Rs.600 for food</p>
+                            <p>which includes 4 times meal.</p>
+                        </div>
+                </div>
+            </div>
+            <!-- <div class="space col-lg-6">
+                <div class="card">
+                    <div class="card-header">Delux</div>
+                        <div class="card-body">
+                            <h3>500.Rs</h3>
+                            <p>1 Room</p>
+                            <p></p>
+                        </div>
+                </div>
+            </div> -->
+
+        </div>
+        
+        
+    </section>
+
+    <section id="map">
+            <div class="map-responsive">
+                    <iframe src="https://maps.google.com/maps?q=takdha&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="just">
+                                <h2>Address</h2>
+                                <br>
+                                <p> <img src="images/placeholder.png" alt="" style="padding :0% 2% 0% 0%;">Tinchuley Takdah, Darjeeling, 734222</p>
+                                <p><img src="images/call.png" alt="" style="padding :0% 1% 0% 0%;"><a href="tel:+91 7864919115"> +91 7864919115 / +91 74308 20347</a></p>
+                                <img src="images/email.png" alt="" style="padding :0% 2% 0% 0%;"><a href="mailto:limbunbu@gmail.com">limbunbu@gmail.com</a>
+                            </div>
+                            </div>
+                            <br>
+                        <div class="col-lg-6">
+                                <form>
+                                        <br>
+                                        <p>Full Name</p>
+                                        <input type="text">
+                                        <p>Email</p>
+                                        <input type="text">
+                                        <p>Message</p>
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        <p></p>
+                                        <div class="email">
+                                            <a href="mailto:limbunbu@gmail.com" style="color: black;">Send Message</a>
+                                        </div>
+                                    </form>
+                        </div>
+            </div>
+
+            
+    </section>
+
+    <!-- Form -->
+    <!-- <section id="contactUs">
+        <form action="">
+            <p>Full Name</p>
+            <input type="text">
+            <p>Email</p>
+            <input type="text">
+            <p>Subject</p>
+            <input type="text">
+            <p>Comment</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <p></p>
+            <input type="button" value="Send Message">
+        </form>
+
+    </section> -->
+
+    <section id="footer">
+        <p>&copy; All rights reserved. Designed by Tarewa.</p>
+    </section>
+
+</body>
+</html>
